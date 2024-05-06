@@ -1,9 +1,10 @@
+/* eslint-disable */
 <template>
   <div id="app">
     <div class="container">
       <div class="row">
         <div class="col">
-          <home/>
+          <home />
         </div>
       </div>
     </div>
@@ -14,16 +15,17 @@
 import Home from "./views/home/Home";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-     Home
-  }
-}
+    Home,
+  },
+};
 </script>
 
 <style>
-@import '~bootstrap/dist/css/bootstrap.css';
-#app{
+@import "~bootstrap/dist/css/bootstrap.css";
+#app {
   display: block;
 }
 </style>
+/* eslint-enable */
